@@ -3,15 +3,35 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<style>
+
+	   
+	   th{
+	      background-color: brown;
+		  text-align:left;
+	   }
+	   .t2{
+		background-color:pink;
+		text-align: right;
+	   }
+	   .t3{
+		background-color: beige;
+		text-align: right;
+	   }
+	   .t4{
+		background-color: grey;
+		text-align: right;
+	   }
+	   #id1,#id2,#id3{
+		text-align: left;
+	   }
+	</style>
 </head>
 
 <body>
 					<!-- the entire body must be written by student -->
-					<div class="container">
-					</div>
 					
-						<table border ="1" cellspacing="10" cellpadding="10">
+						<table border ="1" cellpadding="10"   style="width:100%">
 							<thead>
 								
 									<th>Part</th>
@@ -23,24 +43,24 @@
 								
 							</thead>
 							<tbody>
-								<tr>
-									<td>Waist</td>
+								<tr class="t2" >
+									<td id="id1">Waist</td>
 									<td>25</td>
 									<td>28</td>
 									<td>30</td>
 									<td>31</td>
 									<td>32</td>
 								</tr>
-								<tr>
-									<td>Chest</td>
+								<tr class="t3">
+									<td id="id2">Chest</td>
 									<td>34</td>
 									<td>34</td>
 									<td>38</td>
 									<td>40</td>
 									<td>41</td>
 								</tr>
-								<tr>
-									<td>Sleeve</td>
+								<tr class="t4">
+									<td id="id3">Sleeve</td>
 									<td>23</td>
 									<td>24</td>
 									<td>24</td>
@@ -51,7 +71,6 @@
 							</tbody>
 						</table>
 
-					</div>
 					
 								<script type="text/javascript" src="./script.js">
 				</script>
